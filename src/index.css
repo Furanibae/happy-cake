@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*ESTILOS PROYECTO*/
+
+/*----------NAVBAR---------*/
+
+.container-nav{
+  display:flex;
+  padding-left: 10%;
+  padding-top: 1%;
+  width: 100%;
+
+}
+
+.home-nav, .contacto-nav{
+  text-decoration: none;
+  color: white;
+  width: 8%;
+  padding-top: 1%;
+  
+
+}
+.torta-nav{
+  width: 100%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: end;
+  color: white;
+  margin-right: 5%;
+}
+
+
+/*-----------HOME----------*/
+
+.home{
+  margin-top: 10%;
+  text-align: center;
+}
+.titulo-home{
+  font-size: 100px;
+
+}
+
+.subtitulo-home{
+  margin-top: 3%;
+  font-size: 40px;
+}
+
+.torta-home{
+  margin-top: 4%;
+  font-size: 250px;
+  margin-bottom: 5%;
+}
+
+/*-------CONTACTO-------*/
+
+.contacto{
+  text-align: center;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+   width: 100%;
+}
+
+.titulo-cont{
+  font-size: 70px;
+}
+
+.input1, .input2{
+ width: 50%;
+text-align: center;
+margin: auto;
+display: block;
+
+
+}
+.input3{
+  width:10%;
+  margin: auto;
+display: block;
+}
